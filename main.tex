@@ -1,0 +1,47 @@
+\documentclass{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{blkarray}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{biblatex}
+\addbibresource{bibliography.bib} 
+
+
+\newcommand{\emailaddr}[1]{\href{mailto:#1}{\texttt{#1}}}
+
+
+\title{TITLE
+\\
+SUBTITLE
+\\
+\begin{small} 
+  Report finale per il corso di ???  - 
+  LM Ingegneria e Scienze Informatiche
+\end{small}
+}
+\author{
+    \emailaddr{author1@studio.unibo.it}
+    \and
+    \emailaddr{author2@studio.unibo.it}
+}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\addcontentsline{toc}{section}{Bibliography}
+%\bibliographystyle{unsrt}
+%\bibliography{bibliografia}
+\printbibliography %Prints bibliography
+
+
+\end{document}
