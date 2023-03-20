@@ -19,3 +19,5 @@ build/
 main.pdf
 *.fls
 *.fdb_latexmk
+*.bcf
+*.run.xml
